@@ -1,0 +1,21 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Raw datasets (kept locally, not uploaded to GitHub)
+data/raw/
+
+# Large raw VIIRS dataset
+data/raw/fire_archive_SV-C2_841458*
