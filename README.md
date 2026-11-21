@@ -35,6 +35,19 @@ The project combines daily AQI observations, satellite-based vegetation-fire det
 
 The original NASA POWER API response is preserved in JSON format, while the extracted meteorological observations are also stored as a processed CSV dataset.
 
+### Download the Raw Datasets
+
+The original raw datasets used in this project are hosted separately on Google Drive because some files are too large to store directly in the GitHub repository.
+
+**[Download the raw datasets from Google Drive](https://drive.google.com/drive/folders/1uPchM1jaAB1d_LwzOi87WaxkWMZyQrpQ?usp=sharing)**
+
+The folder contains:
+- Four Delhi AQI source CSV files.
+- The NASA FIRMS VIIRS vegetation-fire archive CSV.
+- The original NASA POWER weather API response in JSON format.
+
+Download the files and place them in the project's `data/raw/` directory before running the notebook. The processed datasets used in the analysis are available in `data/processed/` in this repository.
+
 ## Key Findings
 
 - Punjab and Haryana recorded 628,988 VIIRS vegetation-fire detections during October and November across the study period.
