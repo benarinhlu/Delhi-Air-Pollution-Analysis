@@ -1,0 +1,3 @@
+Model,Fire_Coefficient,HAC_Standard_Error,P_Value,R_Squared,Observations
+Original Dynamic Model,5.4047,1.317,4.06e-05,0.7797,663
+Sensitivity Model (Top 5 Influential Observations Removed),4.983342582103378,1.2883748392182648,0.00010976354926847776,0.7915165694340429,658
